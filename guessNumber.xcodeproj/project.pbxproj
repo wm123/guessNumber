@@ -23,6 +23,14 @@
 		E102FA23164746640073F3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E102F9FE164746640073F3A6 /* Foundation.framework */; };
 		E102FA2B164746640073F3A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E102FA29164746640073F3A6 /* InfoPlist.strings */; };
 		E102FA2E164746640073F3A6 /* guessNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E102FA2D164746640073F3A6 /* guessNumberTests.m */; };
+		E102FA3D16474EF10073F3A6 /* ASGuessNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E102FA3C16474EF10073F3A6 /* ASGuessNumber.m */; };
+		E1BE5124164CD489000D0568 /* blueskyback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1BE5123164CD489000D0568 /* blueskyback.jpg */; };
+		E1BE512A164CD612000D0568 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BE5129164CD612000D0568 /* bird1.png */; };
+		E1BE512C164CD66D000D0568 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BE512B164CD66D000D0568 /* bird2.png */; };
+		E1CFB6C6164B3596002BC69E /* randomNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CFB6C5164B3596002BC69E /* randomNumberTests.m */; };
+		E1CFB6CA164B3C73002BC69E /* gameControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CFB6C9164B3C73002BC69E /* gameControlTests.m */; };
+		E1D2337C164A030100D48CA4 /* ASGameControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2337B164A030100D48CA4 /* ASGameControl.m */; };
+		E1D23380164A034100D48CA4 /* ASRandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2337F164A034100D48CA4 /* ASRandomNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,19 @@
 		E102FA2A164746640073F3A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E102FA2C164746640073F3A6 /* guessNumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guessNumberTests.h; sourceTree = "<group>"; };
 		E102FA2D164746640073F3A6 /* guessNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guessNumberTests.m; sourceTree = "<group>"; };
+		E102FA3B16474EF10073F3A6 /* ASGuessNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASGuessNumber.h; sourceTree = "<group>"; };
+		E102FA3C16474EF10073F3A6 /* ASGuessNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASGuessNumber.m; sourceTree = "<group>"; };
+		E1BE5123164CD489000D0568 /* blueskyback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueskyback.jpg; sourceTree = "<group>"; };
+		E1BE5129164CD612000D0568 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		E1BE512B164CD66D000D0568 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		E1CFB6C4164B3596002BC69E /* randomNumberTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomNumberTests.h; sourceTree = "<group>"; };
+		E1CFB6C5164B3596002BC69E /* randomNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randomNumberTests.m; sourceTree = "<group>"; };
+		E1CFB6C8164B3C73002BC69E /* gameControlTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameControlTests.h; sourceTree = "<group>"; };
+		E1CFB6C9164B3C73002BC69E /* gameControlTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameControlTests.m; sourceTree = "<group>"; };
+		E1D2337A164A030100D48CA4 /* ASGameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASGameControl.h; sourceTree = "<group>"; };
+		E1D2337B164A030100D48CA4 /* ASGameControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASGameControl.m; sourceTree = "<group>"; };
+		E1D2337E164A034100D48CA4 /* ASRandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRandomNumber.h; sourceTree = "<group>"; };
+		E1D2337F164A034100D48CA4 /* ASRandomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRandomNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +108,8 @@
 		E102F9ED164746640073F3A6 = {
 			isa = PBXGroup;
 			children = (
+				E1BE5121164CD47F000D0568 /* images */,
+				E102FA3A16474AA10073F3A6 /* classes */,
 				E102FA02164746640073F3A6 /* guessNumber */,
 				E102FA26164746640073F3A6 /* guessNumberTests */,
 				E102F9FB164746640073F3A6 /* Frameworks */,
@@ -146,6 +169,10 @@
 			children = (
 				E102FA2C164746640073F3A6 /* guessNumberTests.h */,
 				E102FA2D164746640073F3A6 /* guessNumberTests.m */,
+				E1CFB6C4164B3596002BC69E /* randomNumberTests.h */,
+				E1CFB6C5164B3596002BC69E /* randomNumberTests.m */,
+				E1CFB6C8164B3C73002BC69E /* gameControlTests.h */,
+				E1CFB6C9164B3C73002BC69E /* gameControlTests.m */,
 				E102FA27164746640073F3A6 /* Supporting Files */,
 			);
 			path = guessNumberTests;
@@ -158,6 +185,29 @@
 				E102FA29164746640073F3A6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E102FA3A16474AA10073F3A6 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E102FA3B16474EF10073F3A6 /* ASGuessNumber.h */,
+				E102FA3C16474EF10073F3A6 /* ASGuessNumber.m */,
+				E1D2337E164A034100D48CA4 /* ASRandomNumber.h */,
+				E1D2337F164A034100D48CA4 /* ASRandomNumber.m */,
+				E1D2337A164A030100D48CA4 /* ASGameControl.h */,
+				E1D2337B164A030100D48CA4 /* ASGameControl.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		E1BE5121164CD47F000D0568 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE5123164CD489000D0568 /* blueskyback.jpg */,
+				E1BE5129164CD612000D0568 /* bird1.png */,
+				E1BE512B164CD66D000D0568 /* bird2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +287,9 @@
 				E102FA11164746640073F3A6 /* Default@2x.png in Resources */,
 				E102FA13164746640073F3A6 /* Default-568h@2x.png in Resources */,
 				E102FA16164746640073F3A6 /* MainStoryboard.storyboard in Resources */,
+				E1BE5124164CD489000D0568 /* blueskyback.jpg in Resources */,
+				E1BE512A164CD612000D0568 /* bird1.png in Resources */,
+				E1BE512C164CD66D000D0568 /* bird2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +327,9 @@
 				E102FA09164746640073F3A6 /* main.m in Sources */,
 				E102FA0D164746640073F3A6 /* ASAppDelegate.m in Sources */,
 				E102FA19164746640073F3A6 /* ASViewController.m in Sources */,
+				E102FA3D16474EF10073F3A6 /* ASGuessNumber.m in Sources */,
+				E1D2337C164A030100D48CA4 /* ASGameControl.m in Sources */,
+				E1D23380164A034100D48CA4 /* ASRandomNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E102FA2E164746640073F3A6 /* guessNumberTests.m in Sources */,
+				E1CFB6C6164B3596002BC69E /* randomNumberTests.m in Sources */,
+				E1CFB6CA164B3C73002BC69E /* gameControlTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +506,7 @@
 				E102FA33164746640073F3A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E102FA34164746640073F3A6 /* Build configuration list for PBXNativeTarget "guessNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +515,7 @@
 				E102FA36164746640073F3A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

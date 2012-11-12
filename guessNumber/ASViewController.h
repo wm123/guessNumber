@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASGameControl.h"
+#import "ASGuessNumber.h"
+#import "ASRandomNumber.h"
 
 @interface ASViewController : UIViewController
+{
+    //UIImageView * UIImageBackgroundView;
+    UILabel * resultLabel;
+    UIButton * startButton;
+    UITextField * inputTextField;
+    
+    ASGameControl * m_gameControl;
+    ASGuessNumber * m_guessCompare;
+    ASRandomNumber * m_randomNumber;
+}
+
+-(IBAction)startButtonClicked:(id)sender;
 
 @end
